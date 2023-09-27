@@ -1,3 +1,3 @@
 # Vemula Dolly Sri
 ## My Interests
--I love Painting
+-I Love reading Novels.
