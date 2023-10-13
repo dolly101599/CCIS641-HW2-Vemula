@@ -3,49 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Introduction</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>My Introduction</title>
     <style>
         body {
-            background-image: url('cute-background.jpg'); /* Replace 'cute-background.jpg' with your image file */
-            background-size: cover;
-            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            background-color: #eebb132f;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            position: relative;
+            background-color: #a6759f90; 
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+        }
+        h1 {
+            color: #080808; 
+        }
+        p {
+            color: #0a0a0a; 
+        }
+        .section-box {
+            background-color: #e4effd; 
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .flowers {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: repeating-conic-gradient(
+                from 0deg,
+                #ffe4c4 0deg 10deg,
+                #fbf1a5e4 0deg 20deg
+            );
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to my Portfolio</h1>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#skills">Skills</a></li>
-        </ul>
-    </nav>
-
-    <main>
-        <section id="About Me">
-            <h2>About Me</h2>
-            <p>My name is Vemula Dolly Sri. I have completed my undergrad in Computer Science and engineering. 
-                I had 2 years of experience in Atos Syntel as a systems engineer. 
-                AFter that, I'm curious about cloud computing that made me choose master's in Computer Science. 
-                My personal interests are I Love reading Novels, Playing Badminton and listening to music.
-                My Technical Interests are Python, Cloud and Ansible.
-                I did research about VMware and Hybrid Cloud. </p>
-        </section>
-
-        <section id="skills">
-            <h2>Skills</h2>
-            <ul>
-                <li>Python Programming</li>
-                <li>Cloud Computing</li>
-                <li>VMware</li>
-                <li>YAML</li>
-                <li>Ansible</li>
-            </ul>
-        </section>
-    </main>
+    <div class="flowers"></div>
+    <div class="container">
+        <h1>Hello, I'm Dolly Sri Vemula</h1>
+        <div class="section-box">
+            <h2>About</h2>
+            <p>I have completed my undergrad in Computer Science and engineering. 
+               I had 2 years of experience in Atos Syntel as a systems engineer. 
+               After that, I'm curious about cloud computing that made me choose master's in Computer Science.
+            </p>
+        </div>
+        <div class="section-box">
+            <h2>Interests</h2>
+            <p>My personal interests are reading Novels, love to Play Badminton and listening to music.
+            </p>
+        </div>
+        <div class="section-box">
+            <h2>Technical Background</h2>
+            <p>My Technical Interests are Python, Cloud, yaml and Ansible.
+               I did research about VMware and Hybrid Cloud.
+            </p>
+        </div>
+    </div>
 </body>
 </html>
